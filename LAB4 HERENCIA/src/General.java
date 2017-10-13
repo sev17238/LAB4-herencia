@@ -1,26 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
- *
+ * Clase que representa a los generales.
  * @author SDiego
  */
-// CC2006, Lab 4
-// Una clase para representar a los Generales.
-
 public class General extends Militar {
-    int i = 0;
+    /**
+     * Metodo de dias de vacaciones del general
+     * @return los dias de vacaciones del general
+     */
     public int getDiasVacaciones() {
         return super.getDiasVacaciones() + 5;           // 3 semanas de vacaciones
     }
-
+    /**
+     * Metodo de formulario de vacaciones para el general.
+     * @return el color del formulario de vacaciones del general.
+     */
     public String getFormularioVacaciones() {
         return "rosado";
     }
-    
+    /**
+     * Metodo propio de la clase general.
+     */
     public void planificaEstrategia() {
         System.out.println("Llevaremos tres divisiones a la frontera!");
     }

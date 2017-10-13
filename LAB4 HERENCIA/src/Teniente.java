@@ -1,18 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
- *
+ * Clase que representa a los tenientes y hereda los atributos de Militar
  * @author SDiego
  */
-// CC2006, Lab 4
-// Una clase para representar a los Tenientes.
 
 public class Teniente extends Militar {
+    /**
+     * Metodo de orden tomada del coronel.
+     * @param texto un texto cualquiera que representa a la orden que da el Coronel
+     */
     public void tomaOrdenCoronel(String texto) {
         System.out.println("Tomando orden del Coronel: " + texto);
-    }
+    }    
 }

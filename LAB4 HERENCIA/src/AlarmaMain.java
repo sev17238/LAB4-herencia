@@ -1,21 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
- *
+ * Esta es la clase principal donde se prueban las clases Alarma, Timbre y AlarmaEmergencia
  * @author SDiego
  */
-// CC2006 Lab
-// Este programa cliente prueba el comportamiento de su clase AlarmaEmergencia.
-
 public class AlarmaMain {
-	public static void main(String[] args) {
-		AlarmaEmergencia alarmaIncendio = new AlarmaEmergencia();
-		alarmaIncendio.m1();                  // emergencia 1
-		alarmaIncendio.m2();                  // alarma 1 / timbre 1	
-                System.out.println(alarmaIncendio);   // emergencia Ring…Ring…Ring…Ring
-	}        
+    /**
+     * Metodo principal donde se crean los objetos de las clases que se quieren probar.
+     * @param args Cualquier ocurrencia
+     */
+    public static void main(String[] args) {
+	AlarmaEmergencia alarmaIncendio = new AlarmaEmergencia();
+	alarmaIncendio.m1();                  // emergencia 1
+	alarmaIncendio.m2();                  // alarma 1 / timbre 1	
+        System.out.println(alarmaIncendio);   // emergencia Ring…Ring…Ring…Ring
+    }        
 }
