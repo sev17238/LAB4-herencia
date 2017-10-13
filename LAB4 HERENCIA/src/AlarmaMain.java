@@ -18,4 +18,5 @@ public class AlarmaMain {
 		alarmaIncendio.m2();                  // alarma 1 / timbre 1
 		System.out.println(alarmaIncendio);   // emergencia Ring…Ring…Ring…Ring
 	}
+        
 }

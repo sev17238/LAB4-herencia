@@ -12,6 +12,7 @@
 // Una clase para representar a los Generales.
 
 public class General extends Militar {
+    int i = 0;
     public int getDiasVacaciones() {
         return super.getDiasVacaciones() + 5;           // 3 semanas de vacaciones
     }
